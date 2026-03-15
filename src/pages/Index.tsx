@@ -46,7 +46,6 @@ const testimonials = [
   { name: "Suresh Nair", city: "Bangalore", rating: 5, text: "The parking sensor kit is a game changer. Installation was straightforward and the display is very clear. Worth every rupee!" },
 ];
 
-const brands = ["Osram", "Philips", "Bosch", "JBL", "Pioneer", "Kenwood", "Blaupunkt", "Viper"];
 
 const Index = () => {
   useScrollAnimation();
@@ -284,27 +283,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ===== BRANDS ===== */}
-      <section className="py-14" style={{ background: "hsl(var(--background-card))", borderTop: "1px solid hsl(var(--border))" }}>
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-10 animate-fade-up">
-            <span className="section-tag">Our Brand Partners</span>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-12">
-            {brands.map((brand) => (
-              <div
-                key={brand}
-                className="animate-fade-up px-6 py-3 glass-card font-rajdhani font-bold text-lg tracking-widest uppercase transition-all duration-300 hover:scale-105"
-                style={{ color: "hsl(var(--muted-foreground))" }}
-                onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "hsl(var(--primary))"; }}
-                onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "hsl(var(--muted-foreground))"; }}
-              >
-                {brand}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </main>
   );
 };

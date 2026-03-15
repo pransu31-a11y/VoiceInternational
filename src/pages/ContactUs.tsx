@@ -38,9 +38,9 @@ const ContactUs = () => {
   };
 
   const contactInfo = [
-    { icon: Phone, label: "Phone", value: "+91 98765 43210", href: "tel:+919876543210" },
-    { icon: Mail, label: "Email", value: "info@autoluxe.in", href: "mailto:info@autoluxe.in" },
-    { icon: MapPin, label: "Address", value: "123, Industrial Area, Sector 7, New Delhi – 110001", href: "#" },
+    { icon: Phone, label: "Phone", value: "+91 7011040696", href: "tel:+917011040696" },
+    { icon: Mail, label: "Email", value: "voiceinternational21@gmail.com", href: "mailto:voiceinternational21@gmail.comn" },
+    { icon: MapPin, label: "Address", value: "108, A Group, Wazirpur Industrial Area, New Delhi – 110052", href: "#" },
     { icon: Clock, label: "Business Hours", value: "Mon–Sat: 9 AM – 7 PM\nSun: 10 AM – 3 PM", href: "#" },
   ];
 
@@ -179,7 +179,7 @@ const ContactUs = () => {
                           <input
                             type="tel"
                             required
-                            placeholder="+91 98765 43210"
+                            placeholder="+91 7011040696"
                             value={form.phone}
                             onChange={(e) => setForm({ ...form, phone: e.target.value })}
                             className="input-dark"

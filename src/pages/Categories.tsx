@@ -107,7 +107,7 @@ const Categories = () => {
             We stock 200+ products. WhatsApp us your requirement and we'll find it for you.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="btn-whatsapp !px-8 !py-4">
+            <a href="https://wa.me/917011040696" target="_blank" rel="noopener noreferrer" className="btn-whatsapp !px-8 !py-4">
               💬 WhatsApp Us
             </a>
             <Link to="/contact" className="btn-outline !px-8 !py-4">

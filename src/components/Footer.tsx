@@ -52,31 +52,7 @@ const Footer = () => {
             <p className="text-sm leading-relaxed mb-5" style={{ color: "hsl(var(--muted-foreground))" }}>
               India's trusted brand for premium automobile accessories. Lighting, audio, safety, and more — all at competitive prices.
             </p>
-            <div className="flex gap-3">
-              {[
-                { Icon: Facebook, href: "#" },
-                { Icon: Instagram, href: "#" },
-                { Icon: Youtube, href: "#" },
-                { Icon: Twitter, href: "#" },
-              ].map(({ Icon, href }, i) => (
-                <a
-                  key={i}
-                  href={href}
-                  className="w-9 h-9 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
-                  style={{ background: "hsl(var(--muted))", color: "hsl(var(--muted-foreground))" }}
-                  onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.background = "hsl(var(--primary))";
-                    (e.currentTarget as HTMLElement).style.color = "white";
-                  }}
-                  onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLElement).style.background = "hsl(var(--muted))";
-                    (e.currentTarget as HTMLElement).style.color = "hsl(var(--muted-foreground))";
-                  }}
-                >
-                  <Icon size={16} />
-                </a>
-              ))}
-            </div>
+            
           </div>
 
           {/* Categories */}
@@ -149,19 +125,19 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="mt-0.5 shrink-0" style={{ color: "hsl(var(--primary))" }} />
                 <span className="text-sm" style={{ color: "hsl(var(--muted-foreground))" }}>
-                  123, Industrial Area, Sector 7, New Delhi – 110001, India
+                 108, A Group, Wazirpur Industrial Area, New Delhi – 110052, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="shrink-0" style={{ color: "hsl(var(--primary))" }} />
-                <a href="tel:+919876543210" className="text-sm hover:text-primary transition-colors" style={{ color: "hsl(var(--muted-foreground))" }}>
-                  +91 98765 43210
+                <a href="tel:+917011040696" className="text-sm hover:text-primary transition-colors" style={{ color: "hsl(var(--muted-foreground))" }}>
+                  +91 7011040696
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="shrink-0" style={{ color: "hsl(var(--primary))" }} />
-                <a href="mailto:info@autoluxe.in" className="text-sm hover:text-primary transition-colors" style={{ color: "hsl(var(--muted-foreground))" }}>
-                  info@autoluxe.in
+                <a href="mailto:voiceinternational21@gmail.com" className="text-sm hover:text-primary transition-colors" style={{ color: "hsl(var(--muted-foreground))" }}>
+                  voiceinternational21@gmail.com
                 </a>
               </li>
             </ul>

@@ -32,8 +32,8 @@ const Navbar = () => {
       <div style={{ background: "hsl(var(--primary) / 0.08)", borderBottom: "1px solid hsl(var(--border))" }} className="hidden md:block">
         <div className="container mx-auto flex items-center justify-between py-2 px-4 text-xs" style={{ color: "hsl(var(--muted-foreground))" }}>
           <div className="flex items-center gap-6">
-            <a href="tel:+919876543210" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-              <Phone size={12} /> +91 98765 43210
+            <a href="tel:+917011040696" className="flex items-center gap-1.5 hover:text-primary transition-colors">
+              <Phone size={12} /> +91 7011040696
             </a>
             <a href="mailto:info@autoluxe.in" className="flex items-center gap-1.5 hover:text-primary transition-colors">
               <Mail size={12} /> info@autoluxe.in
